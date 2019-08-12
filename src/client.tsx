@@ -3,8 +3,8 @@ import { ThemeProvider } from "@material-ui/styles";
 import React from "react";
 import { hydrate } from "react-dom";
 import { BrowserRouter } from "react-router-dom";
-import routes from "./routes";
-import theme from "./theme";
+import routes from "./App/routes";
+import theme from "./App/theme";
 
 ensureReady(routes).then(data => {
   hydrate(

@@ -27,6 +27,7 @@
   "devDependencies": {
     "@types/jest": "^24.0.17",
     "@types/react-router-dom": "^4.3.4",
+    "@types/webpack-env": "^1.14.0",
     "prettier": "^1.18.2",
     "razzle": "^3.0.0",
     "razzle-plugin-typescript": "^3.0.0",
